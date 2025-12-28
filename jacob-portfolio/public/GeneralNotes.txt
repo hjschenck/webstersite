@@ -1,10 +1,10 @@
 
 
 -- TODO: 
--- professional personal pic of Jacob
+-- professional personal pic of Jacob is now presentin the public folder under JacobSchenckPersonalWebsite.jpg
 -- Add GPA for tulane, 3.4
 -- National Merti finalists (Full Ride for 4 years, value of $218,500 put that in there somehow)
--- remove hardware and embedded sectin
+-- remove hardware and embedded section
 -- add the skills somewhere OOP/Object Oriented Programming, Agile Development, VS & VS Code,Git
 -- Unit testing (novice)
 -- include link to GitHub https://github.com/hjschenck
@@ -22,5 +22,12 @@
 -- PRINT WORLD
 -- print HELLO GOTO 15
 
+--Flesh out Trivia/Quizbowl
+    --along the lines of Demonstrated teammeanship and communication through coordinating with 4 person team 
+    --regular retrevial practice to encode assigned subject matter for competitiong 
+--Flesh out Sterling Financial Services
+    --Debugged Networks
+    --Debugged BIOS startup of different Operatings systesm and bioses
 
+--Flesh out ARA?
 
