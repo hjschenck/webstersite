@@ -9,7 +9,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
             <Link href="/" className="text-xl font-bold gradient-text">
-              Jacob Schenck
+              Henry Jacob Schenck
             </Link>
             <div className="hidden md:flex space-x-8">
               <a href="#about" className="hover:text-primary transition-colors">About</a>
@@ -35,7 +35,7 @@ export default function Home() {
             </h2>
             <p className="text-lg text-secondary mb-8 max-w-lg">
               Recent Master&apos;s graduate in Computer Science from Tulane University 
-              with a passion for software development, avionics systems, and competitive programming.
+              with a passion for software development and programming.
             </p>
             <div className="flex flex-wrap gap-4">
               <a 
@@ -80,16 +80,15 @@ export default function Home() {
                 I&apos;m a dedicated computer scientist with a strong foundation in both theoretical 
                 and practical aspects of computing. Having earned my Bachelor&apos;s degree from 
                 The University of Alabama and recently completing my Master&apos;s degree from 
-                Tulane University, I bring a unique blend of academic excellence and hands-on experience.
+                Tulane University, I am excited to start a career in the industry.
               </p>
               <p className="text-lg text-secondary mb-6">
-                My journey in tech has been marked by diverse experiences, from designing avionics 
-                systems for NASA Student Launch rockets to IT work at Sterling Financial Services. 
-                I&apos;m passionate about building efficient solutions and always eager to tackle new challenges.
+                So far, during my time at university, I have worked on avionics systems for
+                NASA Student Launch rockets and worked on IT at Sterling Financial Services. 
               </p>
               <p className="text-lg text-secondary">
                 When I&apos;m not coding, you&apos;ll find me competing in trivia/quiz bowl, playing board 
-                games and chess, exploring VR, or participating in competitive programming contests.
+                games and chess, or exploring VR.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-4">
@@ -100,14 +99,6 @@ export default function Home() {
               <div className="card-hover p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg text-center">
                 <div className="text-4xl font-bold text-primary mb-2">MS</div>
                 <div className="text-secondary">Computer Science</div>
-              </div>
-              <div className="card-hover p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg text-center">
-                <div className="text-4xl font-bold text-primary mb-2">5+</div>
-                <div className="text-secondary">Languages</div>
-              </div>
-              <div className="card-hover p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg text-center">
-                <div className="text-4xl font-bold text-primary mb-2">2+</div>
-                <div className="text-secondary">Years Experience</div>
               </div>
             </div>
           </div>
@@ -220,13 +211,12 @@ export default function Home() {
               </div>
               <h3 className="text-lg font-bold mb-3">Development Practices</h3>
               <div className="flex flex-wrap gap-2">
-                {['OOP', 'Agile Development', 'Unit Testing'].map((skill) => (
+                {['OOP', 'Agile Development', 'Unit Testing (novice)'].map((skill) => (
                   <span key={skill} className="px-2 py-1 bg-accent/10 text-accent rounded-full text-xs font-medium">
                     {skill}
                   </span>
                 ))}
               </div>
-              <p className="text-xs text-secondary mt-2 italic">Unit Testing (Novice)</p>
             </div>
 
             {/* Tools & IDEs */}
@@ -256,7 +246,7 @@ export default function Home() {
               </div>
               <h3 className="text-lg font-bold mb-3">Operating Environments</h3>
               <div className="flex flex-wrap gap-2">
-                {['Windows', 'PC Assembly', 'Troubleshooting'].map((skill) => (
+                {['Windows', 'Linux'].map((skill) => (
                   <span key={skill} className="px-2 py-1 bg-green-500/10 text-green-500 rounded-full text-xs font-medium">
                     {skill}
                   </span>
@@ -291,7 +281,7 @@ export default function Home() {
                   <div className="flex flex-wrap items-center gap-3 mb-2">
                     <h3 className="text-2xl font-bold">Alabama Rocketry Association</h3>
                     <span className="px-3 py-1 bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-300 rounded-full text-sm font-medium">
-                      🚀 NASA Student Launch
+                      NASA Student Launch
                     </span>
                   </div>
                   <p className="text-primary font-medium mb-4">Avionics Team Member | 2021 - 2023</p>
@@ -357,22 +347,22 @@ export default function Home() {
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             <div className="card-hover bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6 text-center">
-              <div className="text-5xl mb-4">🧠</div>
+              <div className="text-5xl mb-4"></div>
               <h3 className="font-bold mb-2">Trivia/Quiz Bowl</h3>
               <p className="text-secondary text-sm">Competitive knowledge challenges</p>
             </div>
             <div className="card-hover bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6 text-center">
-              <div className="text-5xl mb-4">♟️</div>
+              <div className="text-5xl mb-4"></div>
               <h3 className="font-bold mb-2">Board Games & Chess</h3>
               <p className="text-secondary text-sm">Strategic thinking & gaming</p>
             </div>
             <div className="card-hover bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6 text-center">
-              <div className="text-5xl mb-4">🥽</div>
+              <div className="text-5xl mb-4"></div>
               <h3 className="font-bold mb-2">Virtual Reality</h3>
               <p className="text-secondary text-sm">Exploring immersive technologies</p>
             </div>
             <div className="card-hover bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6 text-center">
-              <div className="text-5xl mb-4">💻</div>
+              <div className="text-5xl mb-4"></div>
               <h3 className="font-bold mb-2">Competitive Programming</h3>
               <p className="text-secondary text-sm">Algorithm challenges & contests</p>
             </div>
