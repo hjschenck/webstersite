@@ -1,0 +1,26 @@
+
+
+-- TODO: 
+-- professional personal pic of Jacob
+-- Add GPA for tulane, 3.4
+-- National Merti finalists (Full Ride for 4 years, value of $218,500 put that in there somehow)
+-- remove hardware and embedded sectin
+-- add the skills somewhere OOP/Object Oriented Programming, Agile Development, VS & VS Code,Git
+-- Unit testing (novice)
+-- include link to GitHub https://github.com/hjschenck
+-- remove "Software Developer & Computer Scientist" to just (Software Engineer)
+
+
+
+
+-- "GOTO considered harmful"
+-- "Structured Programming Thesis" --proved that all programs can be expressesd just ifs, whiles, break.
+
+-- "anyone who programmed in GOTO had such serious brain damage they could never really program"
+-- GOTO 16
+--
+-- PRINT WORLD
+-- print HELLO GOTO 15
+
+
+
